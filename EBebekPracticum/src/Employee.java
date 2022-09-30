@@ -35,6 +35,7 @@ public class Employee {
 	//Mesai ücreti hesaplanan metot
 	public double bonus() {
 		double bonusSalary = 0; //Bu değişken mesai ücretini tanımlamaktadır.
+		
 		if (workHours > 40) {
 			bonusSalary = 30.0 * (workHours - 40);
 			return bonusSalary;
